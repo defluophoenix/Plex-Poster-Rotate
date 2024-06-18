@@ -32,4 +32,5 @@ find /root/plex-meta-manager/assets/ -type f -name poster2.png -execdir /root/po
 Tips
 
 I recommend running this as a cronjob. 
+
 DO NOT run this more than you run Kometa. If you run kometa once a day, and this script 3 times a day, then Kometa will only pick up the last shuffle, which may have shuffled the poster back to its original place.
